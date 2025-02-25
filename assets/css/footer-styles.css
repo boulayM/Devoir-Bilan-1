@@ -1,0 +1,47 @@
+
+#icons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+#instagram {
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: invert(100%);
+}
+#facebook {
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/logo-facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: invert(100%);
+}
+#github {
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/logo-github.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: invert(100%);
+}
+#linkedin {
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/signe-linkedin.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: invert(100%);
+}
+#icons :hover {
+    opacity: 0.8;
+}
+time {
+    pointer-events: none;
+}
