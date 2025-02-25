@@ -1,0 +1,83 @@
+.header-item {
+    height: 90px;
+}
+#picture {
+    width: 30%;
+    height: 100%;
+    align-content: center;
+}
+#photo {
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/photos/photo-boulay-marc-cv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: auto;
+}
+#picture :hover {
+    cursor: zoom-in;
+}
+#title {
+    width: 70%;
+    align-self: flex-end;
+    text-align: center;
+    line-height: 50%;
+}
+#contact {
+    width: 70%;
+    align-self: flex-end;
+    justify-items: center;
+}
+#contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+    height: 90px;
+    margin-top: 40px;
+}
+.contact-item {
+    display: flex;
+    flex-wrap: wrap;
+    height: 35px;
+    gap: 10px;
+}
+#mail {
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/enveloppe.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#email {
+    padding-right: 5px;
+}
+#address {
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/accueil.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#home {
+    padding-left: 15px;
+}
+#phone {
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/silhouette-de-poignee-de-telephone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#car {
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icons/voiture-avant.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#vehicule {
+    padding-left: 15px;
+}
